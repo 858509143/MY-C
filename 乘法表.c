@@ -6,12 +6,14 @@ int main(void)
 	a = 1,b = 0;
 	while (a <= 9)
 	{
-	while (b <= 9)
-	{
-		printf("%d*%d=%2d ", a, b, MAX);
-		b++;
-	}
+		while (b <= 9)
+		{
+			printf("%d*%d=%2d ", a, b, MAX);
+			b++;
+		}
 	printf("\n");
 	a++;
 	b = a;
 	}
+	return 0;
+}
