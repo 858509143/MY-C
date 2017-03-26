@@ -1,3 +1,4 @@
+/*用while循环打印字母a~g*/
 # include <stdio.h>
 int main(void)
 {
