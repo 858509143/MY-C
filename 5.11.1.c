@@ -1,3 +1,4 @@
+//讲分钟转换为小时+分钟
 # include <stdio.h>
 # define T 60
 int main(void)
