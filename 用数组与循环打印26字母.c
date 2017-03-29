@@ -7,5 +7,6 @@ int main(void)
 		abc[index] = ch;
 	for(index = 0;index<26;index++)
 		printf("%c",abc[index]);
+	printf("\n");
 	return 0;
 }
