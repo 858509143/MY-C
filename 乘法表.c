@@ -11,9 +11,9 @@ int main(void)
 			printf("%d*%d=%2d ", a, b, MAX);
 			b++;
 		}
-	printf("\n");
-	a++;
-	b = a;
+		printf("\n");
+		a++;
+		b = a;
 	}
 	return 0;
 }
